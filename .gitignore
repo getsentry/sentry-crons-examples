@@ -1,0 +1,214 @@
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.sublime-*
+*.sublime-workspace
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+
+# Dependencies
+node_modules/
+vendor/
+.bundle/
+bower_components/
+
+# Build outputs
+dist/
+build/
+out/
+target/
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Testing
+coverage/
+.coverage
+*.cover
+.hypothesis/
+.pytest_cache/
+.tox/
+.nox/
+htmlcov/
+.rspec_status
+
+# Package files
+*.tar.gz
+*.zip
+*.7z
+*.dmg
+*.iso
+*.jar
+*.rar
+
+# Temporary files
+*.tmp
+*.temp
+*.cache
+*.bak
+*.swp
+*.swo
+*~
+tmp/
+temp/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv
+pip-log.txt
+pip-delete-this-directory.txt
+.mypy_cache/
+.dmypy.json
+dmypy.json
+*.egg-info/
+.eggs/
+
+# Ruby
+*.gem
+*.rbc
+/.config
+/coverage/
+/InstalledFiles
+/pkg/
+/spec/reports/
+/spec/examples.txt
+/test/tmp/
+/test/version_tmp/
+/.bundle/
+/vendor/bundle
+/lib/bundler/man/
+.rvmrc
+/.yardoc/
+/_yardoc/
+/doc/
+/rdoc/
+
+# JavaScript/TypeScript
+.npm
+.eslintcache
+.stylelintcache
+.node_repl_history
+*.tsbuildinfo
+.next/
+.nuxt/
+.cache/
+.parcel-cache/
+.serverless/
+.fusebox/
+.dynamodb/
+.tern-port
+.yarn-integrity
+
+# Java
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+hs_err_pid*
+.gradle/
+gradle-app.setting
+!gradle-wrapper.jar
+
+# PHP
+composer.phar
+/vendor/
+phpunit.xml
+.phpunit.result.cache
+
+# Go
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+go.work
+
+# Rust
+/target/
+Cargo.lock
+**/*.rs.bk
+
+# .NET
+bin/
+obj/
+*.user
+*.userosscache
+*.suo
+*.cache
+*.ilk
+*.log
+*.dll
+*.exe
+
+# Database
+*.sqlite
+*.sqlite3
+*.db
+*.mdf
+*.ldf
+
+# Secrets and credentials
+*.pem
+*.key
+*.crt
+*.p12
+.env.*
+!.env.example
+!.env.sample
+secrets/
+credentials/
+
+# Terraform
+*.tfstate
+*.tfstate.*
+.terraform/
+.terraform.lock.hcl
+*.tfvars
+!example.tfvars
+
+# Docker
+.dockerignore
+
+# Miscellaneous
+.sass-cache/
+*.pid
+*.seed
+*.pid.lock
+.grunt
+.lock-wscript

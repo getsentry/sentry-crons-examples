@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+        "allowJs": true,
+        "lib": [
+            "deno.window"
+        ],
+        "strict": true
+    },
+    "imports": {
+        "@sentry/deno": "npm:@sentry/deno@^9.28.0"
+    },
+    "tasks": {
+        "start": "deno run --allow-env --allow-net src/main.ts",
+        "dev": "deno run --allow-env --allow-net --watch src/main.ts"
+    }
+}
