@@ -1,0 +1,13 @@
+source 'https://rubygems.org'
+
+# Core dependencies
+gem 'sidekiq', '~> 7.0'
+gem 'sidekiq-cron', '~> 1.12'
+gem 'redis', '~> 5.0'
+
+# Sentry integration
+gem 'sentry-ruby'
+gem 'sentry-sidekiq'
+
+# Environment configuration
+gem 'dotenv'

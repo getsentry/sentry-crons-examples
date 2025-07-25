@@ -1,0 +1,5 @@
+heartbeat:
+  cron: "* * * * *"  # Every minute
+  class: "HeartbeatWorker"
+  queue: default
+  description: "Sends heartbeat to Sentry every minute"
