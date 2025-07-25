@@ -90,6 +90,12 @@ Create a production-ready Dockerfile:
 - Ensure the scheduler runs properly in a container
 - Include any system dependencies (e.g., cron for systems that need it)
 
+#### Ruby-specific Docker Tips
+- Remove `Gemfile.lock` if it exists from previous local development
+- Let Docker create a fresh lock file to avoid bundler version conflicts
+- Use `bundle install` without complex flags unless needed
+- For cron-based systems, handle environment variable passing carefully
+
 ### Step 7: Documentation
 
 Write a README.md that includes:
@@ -142,6 +148,8 @@ Before submitting an example, verify:
 - [ ] Code is minimal but realistic
 - [ ] Error messages are helpful
 - [ ] Example is self-contained (no external dependencies beyond standard services)
+- [ ] Never run package managers locally - always use Docker for testing changes
+- [ ] Test with placeholder DSN values to ensure proper error handling
 
 ## Common Patterns to Avoid
 

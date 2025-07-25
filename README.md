@@ -11,6 +11,7 @@ Sentry Crons allows you to monitor recurring jobs and get alerts when they fail 
 ### Ruby
 - [Whenever](ruby/whenever/) - Cron job management with the whenever gem
 - [Clockwork](ruby/clockwork/) - Ruby daemon for scheduling with clockwork
+- [Sidekiq-Cron](ruby/sidekiq-cron/) - Cron scheduling for Sidekiq background jobs
 
 ### TypeScript/JavaScript
 - [Deno](typescript/deno/cron-examples/) - Deno runtime with built-in cron
