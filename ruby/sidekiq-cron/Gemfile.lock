@@ -33,7 +33,7 @@ GEM
     logger (1.7.0)
     minitest (5.25.5)
     raabro (1.4.0)
-    rack (3.1.16)
+    rack (3.1.17)
     redis (5.4.1)
       redis-client (>= 0.22.0)
     redis-client (0.25.1)
@@ -61,6 +61,7 @@ GEM
 
 PLATFORMS
   aarch64-linux
+  x86_64-linux
 
 DEPENDENCIES
   dotenv
