@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 # Core dependencies
 gem 'sidekiq', '~> 7.0'
-gem 'sidekiq-cron', '~> 1.12'
+gem 'sidekiq-cron', '~> 2.4'
 gem 'redis', '~> 5.0'
 
 # Sentry integration
